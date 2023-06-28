@@ -1,0 +1,7 @@
+{
+  "name": "crud-agenda",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
