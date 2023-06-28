@@ -5,13 +5,16 @@
 export const environment = {
   production: false,
   firebaseConfig : {
-    apiKey: "AIzaSyB7gShlxAH0wrpU0yyTyRwoJTw3poOTuKQ",
-    authDomain: "crud-examen-cd91b.firebaseapp.com",
-    databaseURL: "https://crud-examen-cd91b-default-rtdb.firebaseio.com",
-    projectId: "crud-examen-cd91b",
-    storageBucket: "crud-examen-cd91b.appspot.com",
-    messagingSenderId: "826840188227",
-    appId: "1:826840188227:web:4260931b8053781c929bf6"
+     firebaseConfig : {
+    apiKey: "AIzaSyDo3gA5ayjW2uY36Jzow-oLL96ddA7cM98",
+    authDomain: "app2022b.firebaseapp.com",
+    databaseURL: "https://app2022b-default-rtdb.firebaseio.com",
+    projectId: "app2022b",
+    storageBucket: "app2022b.appspot.com",
+    messagingSenderId: "430051088078",
+    appId: "1:430051088078:web:d2489c60cfcc8d3af0629f",
+    measurementId: "G-18BCZEN1EZ"
+  }
   }
 };
 
