@@ -1,3 +1,15 @@
 <ion-app>
   <ion-router-outlet></ion-router-outlet>
 </ion-app>
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button routerLinkActive="tab-selected" routerLink="/home" class="ios" tab="home">
+      <ion-icon name="people-outline"></ion-icon>
+      <ion-label>Contactos</ion-label>
+    </ion-tab-button>
+    <ion-tab-button routerLinkActive="tab-selected" routerLink="/crear-agenda" class="ios" tab="crear-agenda">
+      <ion-icon name="person-add-outline"></ion-icon>
+      <ion-label>Crear nuevo contacto</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>

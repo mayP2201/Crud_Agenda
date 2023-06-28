@@ -11,6 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'crear-agenda',
+    loadChildren: () => import('./crear-agenda/crear-agenda.module').then( m => m.CrearAgendaPageModule)
+  },
+  {
+    path: 'editar-agenda/:id',
+    loadChildren: () => import('./editar-agenda/editar-agenda.module').then( m => m.EditarAgendaPageModule)
+  },
 ];
 
 @NgModule({
